@@ -8,7 +8,7 @@ function Header() {
 
     return(
         <div className='container-fluid min-vw-100'>
-        <header className='d-flex flex-wrap justify-content-center   border-bottom header'>
+        <header className='d-flex flex-wrap justify-content-between    border-bottom header'>
             <h1>
             Aaron Neslin
             </h1>
