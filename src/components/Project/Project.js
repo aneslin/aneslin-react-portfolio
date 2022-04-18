@@ -6,11 +6,11 @@ function Project(props) {
   console.log(description);
 
   return (
-    <div className="card max-vw-20" key={link}>
+    <div className="card " key={link}>
       <a href={link}>
-        <img className="card-img-top" src={image} alt={image_desc} />
+        <img className="card-img-top img-fluid" src={image} alt={image_desc} />
     <div className="card-body">
-    <h5 className="card-title">{name}</h5>
+    <h5 className="card-title ">{name}</h5>
     <p className="card-text">{description}</p>
     
 

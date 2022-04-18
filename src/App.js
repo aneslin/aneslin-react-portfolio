@@ -3,8 +3,9 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
+import Footer from "./components/Footer/Footer"
 //import Contact from './components/Contact/Contact'
-import "./App.css";
+//import "./App.css";
 
 function App() {
   const [contentSelected, setContentSelected] = useState("About");
@@ -30,9 +31,14 @@ function App() {
         contentSelected={contentSelected}
         setContentSelected={setContentSelected}
       ></Header>
-
+      <main>
       <div className="container"
       >{handlepage(contentSelected)}</div>
+      </main>
+      <footer className="footer fixed-bottom">
+      <Footer></Footer>
+      </footer>
+
     </div>
   );
 }

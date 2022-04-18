@@ -16,6 +16,9 @@ code {
   background-color: #2D3047;
 }
 
+.header h1 {
+  color: darkgray
+}
 
 .main {
   background-color: #93B7BE;
@@ -26,6 +29,16 @@ code {
   color:darkgray
 }
 
-a:hover {
-  text-decoration: underline;
+.card {
+  background-color: #2D3047;
+}
+
+.card a {
+  text-decoration: none;
+  background-color: #2D3047;
+  color:darkgray
+}
+
+footer{
+  background-color: #2D3047;
 }
