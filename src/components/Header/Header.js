@@ -2,9 +2,9 @@ import React from 'react'
 import Nav from '../Nav/Nav'
 
 
-function Header() {
-
-
+function Header(props) {
+ const   {contentSelected, setContentSelected} = props
+ 
 
     return(
         <div className='container-fluid min-vw-100'>
@@ -12,7 +12,10 @@ function Header() {
             <h1>
             Aaron Neslin
             </h1>
-            <Nav></Nav>
+            <Nav 
+            contentSelected={contentSelected}
+            setContentSelected={setContentSelected}
+            ></Nav>
 
         </header>
         </div>
