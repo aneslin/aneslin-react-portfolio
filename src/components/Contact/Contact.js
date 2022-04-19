@@ -1,17 +1,45 @@
 import React, { useState } from "react";
+import { validateEmail } from "../../utils/helpers";
+
 
 const Contact = function () {
+    const[errorMessage, setErrorMessage]= useState('')
     const [formState, setFormState] = useState({
         name: "",
         email: "",
         message: "",
     });
-
+    
     const { name, email, message } = formState;
+
+    function handleChange(e) {
+        if (e.target.name === 'email'){
+        const isValid = validateEmail(e.target.value)
+            console.log(isValid)
+            if(!isValid){
+                setErrorMessage("Invalid Email")
+            } else { setErrorMessage('')}   }
+            else{
+                if(!e.target.value.length){
+                    setErrorMessage(`${e.target.name} is required`)
+                } else {
+                    setErrorMessage('')
+                }
+            }
+         if (!errorMessage){   
+
+        setFormState({ ...formState, [e.target.name]: e.target.value });}
+        
+            console.log('errorMessage', errorMessage)
+     
+      }
+    
+
 
     function handleSubmit(e) {
         e.preventDefault();
         console.log("if there was a database you would see==>", formState);
+        
     }
 
     return (
@@ -28,6 +56,7 @@ const Contact = function () {
                         className="form-control m-1"
                         name="name"
                         defaultValue={name}
+                        onBlur={handleChange}
                     />
                 </div>
                 <div className="form-group col-md-4">
@@ -39,6 +68,7 @@ const Contact = function () {
                         type="email"
                         name="email"
                         defaultValue={email}
+                        onBlur={handleChange}
                     />
                 </div>
                 <div className="form-group col-md-4 ">
@@ -50,13 +80,18 @@ const Contact = function () {
                         name="message"
                         rows="4"
                         defaultValue={message}
+                        onBlur={handleChange}
                     />
                 </div>
-
+                {errorMessage && (
+          <div>
+              <p className="error-text">{errorMessage}</p>
+          </div>
+      )}
                 <button type="submit">Submit</button>
             </form>
         </div>
-    );
-};
+    )
+}
 
 export default Contact;
