@@ -42,3 +42,24 @@ code {
 footer{
   background-color: #2D3047;
 }
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+#contact-form{
+  background-color: #2D3047;
+  color : darkgray
+}

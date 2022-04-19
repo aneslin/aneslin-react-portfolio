@@ -4,7 +4,7 @@ import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer/Footer"
-//import Contact from './components/Contact/Contact'
+import Contact from './components/Contact/Contact'
 //import "./App.css";
 
 function App() {
@@ -20,6 +20,9 @@ function App() {
       case "Project":
         return <Portfolio></Portfolio>;
 
+
+        case "Contact":
+        return <Contact></Contact>
       default:
         break;
     }
