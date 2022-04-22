@@ -44,6 +44,7 @@ const Contact = function () {
 
     return (
         <div className="container">
+            <div className="mt-4">
             <h2>Contact me</h2>
 
             <form id="contact-form" className="form-row d-flex flex-column align-items-center p-4" onSubmit={handleSubmit}>
@@ -90,6 +91,7 @@ const Contact = function () {
       )}
                 <button type="submit">Submit</button>
             </form>
+        </div>
         </div>
     )
 }

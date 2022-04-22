@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = function () {
   return (
-    <div className="container pb-5  mb-3 ">
+    <div className="container pb-5 mt-4 mb-3 ">
       <div className="d-flex flex-column align-items-center justify-content-center">
         <h2 className="border-bottom border-dark p-1 col-12">Resume</h2>
 
@@ -129,8 +129,10 @@ const Resume = function () {
 </section>
 
 
-
         </div>
+        <button className="btn btn-light btn-lg">
+<a download="resume.md" href="../public/resume.md" alt="download file">Download</a>
+</button>
       </div>
     </div>
   );
