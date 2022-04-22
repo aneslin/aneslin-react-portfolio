@@ -1,5 +1,5 @@
 import React from "react";
-
+import profileImage from "../../assets/images/profile.jpg"
 
 function About(){
 
@@ -8,7 +8,7 @@ function About(){
         <div className="container pb-4">
             <h2>About me</h2>
             <div className="row align-items-center">
-                <div className="col-12 col-md-6" ><img  className='container-fluid' src='../../assets/images/profile.jpg' alt="placeholder"></img></div>
+                <div className="col-12 col-md-6" ><img  className='container-fluid' src={profileImage} alt=" me"></img></div>
                 <div className="col-12 col-md-6 p-4"><p>Hi, I'm Aaron Neslin, library, programmer and aspiring web developer.  I have over seven years experience managing library systems both public
                     and academic libraries, with patron bases ranging from 5000 to 245,000. I have experience with most of the major library system on the market, including Polaris, Voyager
                     Aleph and FOLIO.  I've worked with major open-source digital repository systems such as Islandora and Hyrax, as well as vendor systems such as ContentDM and Digital Commons.
