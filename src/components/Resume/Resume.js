@@ -116,15 +116,20 @@ const Resume = function () {
         <ul>
             <li>Masters of Library and Information Science</li>
             <li>Certificate of Advanced Study: Digital Libraries</li>
+
         </ul>
         <p className="mb-0"><strong>University Of Connecticut/Trilogy Learning</strong></p>
         <ul>
             <li>Certificate of Completion- Full-Stack Developer Bootcamp- prospective date May 2022</li>
         </ul>
-
-        
-
+        <ul>
+            <p className="mb-0"><strong>Utica College</strong></p>
+            <li>B.A.  in Philosophy</li>
+        </ul>
 </section>
+
+
+
         </div>
       </div>
     </div>
