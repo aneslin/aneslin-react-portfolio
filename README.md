@@ -31,5 +31,5 @@ Includes 8 Components:
 ## Deployed Application
 [Deployed application](https://aneslin.github.io/aneslin-react-portfolio/)
 
-###
+### note
 I don't have a third public profile
