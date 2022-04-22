@@ -26,4 +26,7 @@ Includes 8 Components:
 
 
 ## Screenshot
-![Portfolio page](./public/assets/images/readme.jpg)
+![Portfolio page](./src/assets/images/readme.jpg)
+
+## Deployed Application
+[Deployed application](https://aneslin.github.io/aneslin-react-portfolio/)

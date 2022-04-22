@@ -1,5 +1,5 @@
 import React from "react";
-
+import res from "../../assets/resume.md"
 const Resume = function () {
   return (
     <div className="container pb-5 mt-4 mb-3 ">
@@ -131,7 +131,7 @@ const Resume = function () {
 
         </div>
         <button className="btn btn-light btn-lg">
-<a download="resume.md" href="../public/resume.md" alt="download file">Download</a>
+<a download="resume.md" href={res} alt="download file">Download</a>
 </button>
       </div>
     </div>
