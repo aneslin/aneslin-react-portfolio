@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aneslin-react-portfolio/static/css/main.1f538b5f.css",
+    "main.js": "/aneslin-react-portfolio/static/js/main.34100d1a.js",
+    "static/js/787.4048b011.chunk.js": "/aneslin-react-portfolio/static/js/787.4048b011.chunk.js",
+    "index.html": "/aneslin-react-portfolio/index.html",
+    "main.1f538b5f.css.map": "/aneslin-react-portfolio/static/css/main.1f538b5f.css.map",
+    "main.34100d1a.js.map": "/aneslin-react-portfolio/static/js/main.34100d1a.js.map",
+    "787.4048b011.chunk.js.map": "/aneslin-react-portfolio/static/js/787.4048b011.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f538b5f.css",
+    "static/js/main.34100d1a.js"
+  ]
+}
