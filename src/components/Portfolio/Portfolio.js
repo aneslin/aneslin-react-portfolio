@@ -30,13 +30,11 @@ const Portfolio = function () {
     },
   ];
 
-  //const projeMap = function(array){
-  //array.map(project, i) =>
-  //  {}
-  //}
+
 
   return (
     <div className="row d-flex flex-row mt-4">
+      <h2>Projects</h2>
       {projects.map((project, i) => (
         <div key={i} className="col-sm-12 col-md-6 col-lg-4 mb-3">
           <Project
