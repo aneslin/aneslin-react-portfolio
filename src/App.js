@@ -3,8 +3,8 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
-import Footer from "./components/Footer/Footer"
-import Contact from './components/Contact/Contact'
+import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
 //import "./App.css";
 
 function App() {
@@ -19,10 +19,11 @@ function App() {
 
       case "Project":
         return <Portfolio></Portfolio>;
+      case "Resume":
+        return <Resume></Resume>;
 
-
-        case "Contact":
-        return <Contact></Contact>
+      case "Contact":
+        return <Contact></Contact>;
       default:
         break;
     }
@@ -34,14 +35,12 @@ function App() {
         contentSelected={contentSelected}
         setContentSelected={setContentSelected}
       ></Header>
-      <main>
-      <div className="container"
-      >{handlepage(contentSelected)}</div>
+      <main className="mt-3 pt-5">
+        <div className="container">{handlepage(contentSelected)}</div>
       </main>
       <footer className="footer fixed-bottom">
-      <Footer></Footer>
+        <Footer></Footer>
       </footer>
-
     </div>
   );
 }
