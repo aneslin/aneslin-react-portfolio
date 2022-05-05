@@ -6,8 +6,19 @@ import portfolio from "../../assets/images/portfolio.jpg"
 import techblog from "../../assets/images/tech-blog.jpg"
 import item from "../../assets/images/item-remap.png"
 import weather from "../../assets/images/weatherdashboard.jpg"
+import gadgets from "../../assets/images/gadgets.jpg"
 const Portfolio = function () {
   const projects = [
+{name: "Grab and Go Gadgets",
+      description:
+        "A full MERN app that allows a user to reserve items from an equipment lender",
+      image:
+      gadgets,
+      imageDesc: "screenshot of website",
+      link: "https://group9-grab-gadget.herokuapp.com/",
+      repository: "https://github.com/aneslin/grab-and-go-gadgets",
+    },
+
     {
       name: "Mountain Lake Bed and Breakfast Website",
       description:
