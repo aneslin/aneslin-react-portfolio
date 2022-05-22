@@ -1,4 +1,5 @@
 import React from "react";
+import {Col, Row, Container} from 'react-bootstrap'
 import Project from "../Project/Project";
 import bb from "../../assets/images/158072422-47c10481-a06e-4f7e-a7fd-fca3b2893c26.png"
 import trax from "../../assets/images/TRAX.png"
@@ -83,10 +84,12 @@ const Portfolio = function () {
   ];
 
   return (
-    <div className="row d-flex flex-row my-4">
+    <Container fluid = 'm'>
       <h2>Projects</h2>
+      <Row>
+        
       {projects.map((project, i) => (
-        <div key={i} className="col-sm-12 col-md-6 col-lg-4 mb-2">
+        <Col md={6} lg={4} sm={12} key={i} >
           <Project
             name={project.name}
             description={project.description}
@@ -95,9 +98,11 @@ const Portfolio = function () {
             link={project.link}
             repository={project.repository}
           ></Project>
-        </div>
+        </Col>
       ))}
-    </div>
+      
+      </Row>
+    </Container>
   );
 };
 export default Portfolio;

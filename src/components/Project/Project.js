@@ -1,12 +1,12 @@
 import React from "react";
-
+import {Card} from 'react-bootstrap'
 function Project(props) {
   const { name, description, image, image_desc, link, repository } = props;
 
   console.log(description);
 
   return (
-    <div className="card pd-2  " key={link}>
+    <Card className='m-2'  style ={{width: '24rem', height:"500px"}} key={link}>
      
         <a href={link}><img className="card-img-top img-fluid" src={image} alt={image_desc} /></a>
         <div className="card-body">
@@ -15,7 +15,7 @@ function Project(props) {
           <a href={repository}>Github Link</a>
         </div>
       
-    </div>
+    </Card>
   );
 }
 export default Project;
