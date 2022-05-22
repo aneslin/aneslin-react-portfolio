@@ -84,7 +84,7 @@ const Portfolio = function () {
   ];
 
   return (
-    <Container fluid = 'm'>
+    <Container fluid = 'm' className='pb-5'>
       <h2>Projects</h2>
       <Row>
         

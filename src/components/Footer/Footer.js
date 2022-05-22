@@ -8,8 +8,8 @@ const Footer =  function(){
 
 
     return(
-
-        <div className="p-1 m-1 row d-flex">
+        <div>
+        <div className="p-1 row d-flex border-top">
 
             <div className="col">
             <a href='https://github.com/aneslin'><img src={github} alt="github logo"></img></a>
@@ -19,7 +19,7 @@ const Footer =  function(){
             <a href='https://www.linkedin.com/in/aaron-neslin-69225148/'><img src={linkedin} alt="linkedin logo"></img></a>
             </div>
     </div>
-
+        </div>
 
     )
 }
