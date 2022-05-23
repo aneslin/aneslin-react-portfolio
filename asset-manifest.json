@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aneslin-react-portfolio/static/css/main.1f538b5f.css",
-    "main.js": "/aneslin-react-portfolio/static/js/main.35b2606c.js",
+    "main.css": "/aneslin-react-portfolio/static/css/main.21c9b75d.css",
+    "main.js": "/aneslin-react-portfolio/static/js/main.70cd32b1.js",
     "static/js/787.4048b011.chunk.js": "/aneslin-react-portfolio/static/js/787.4048b011.chunk.js",
     "static/media/profile.jpg": "/aneslin-react-portfolio/static/media/profile.b87ca853d069a4960c0f.jpg",
     "static/media/158072422-47c10481-a06e-4f7e-a7fd-fca3b2893c26.png": "/aneslin-react-portfolio/static/media/158072422-47c10481-a06e-4f7e-a7fd-fca3b2893c26.8f3cb8334a40cc61bd72.png",
@@ -13,12 +13,12 @@
     "static/media/gadgets.jpg": "/aneslin-react-portfolio/static/media/gadgets.bdec78d5abbddf5fffa0.jpg",
     "static/media/resume.md": "/aneslin-react-portfolio/static/media/resume.7491d723c1dcdbcddb68.md",
     "index.html": "/aneslin-react-portfolio/index.html",
-    "main.1f538b5f.css.map": "/aneslin-react-portfolio/static/css/main.1f538b5f.css.map",
-    "main.35b2606c.js.map": "/aneslin-react-portfolio/static/js/main.35b2606c.js.map",
+    "main.21c9b75d.css.map": "/aneslin-react-portfolio/static/css/main.21c9b75d.css.map",
+    "main.70cd32b1.js.map": "/aneslin-react-portfolio/static/js/main.70cd32b1.js.map",
     "787.4048b011.chunk.js.map": "/aneslin-react-portfolio/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f538b5f.css",
-    "static/js/main.35b2606c.js"
+    "static/css/main.21c9b75d.css",
+    "static/js/main.70cd32b1.js"
   ]
 }
