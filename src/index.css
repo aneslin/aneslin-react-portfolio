@@ -29,6 +29,10 @@ code {
   color:darkgray;
   
 }
+.navbar li :hover{
+  color: red
+  
+}
 
 .card{
   box-shadow: 5px 5px 5px 5px #90b0b6 

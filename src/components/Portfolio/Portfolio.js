@@ -84,12 +84,12 @@ const Portfolio = function () {
   ];
 
   return (
-    <Container fluid = 'm' className='pb-5'>
+    <Container className='pb-5' >
       <h2>Projects</h2>
       <Row>
         
       {projects.map((project, i) => (
-        <Col md={6} lg={4} sm={12} key={i} >
+        <Col md={6} sm={12} key={i} >
           <Project
             name={project.name}
             description={project.description}
